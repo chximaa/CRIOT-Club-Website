@@ -1,0 +1,269 @@
+body {
+    font-family: 'Audiowide', sans-serif;
+    color: white;
+    margin-left: 30px;
+    background: linear-gradient(to right, #191834, #2b2c68, #286a98, #26b7cd, #61bdaf);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 18px;
+    align-items: center;
+    margin-right: 420px;
+}
+
+.logo span {
+    margin-right: 5px;
+}
+
+.logo img {
+    margin-left: -6px;
+    margin-right: -3px;
+    width: 23px;
+    height: 23px;
+}
+
+nav {
+    height: 50px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    float: inline-end;
+    margin-right: 60px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: navy;
+    border-bottom: 5px solid #11703d;
+    font-size: 20px;
+    transform: translateY(-10px);
+}
+
+header {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+header h1 {
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 50px;
+    animation-name: grow;
+    animation-duration: 1.5s;
+}
+
+.set {
+    height: 100px;
+    margin-left: 20px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+span {
+    color: #0e4f6b;
+}
+
+.div1 {
+    display: flex;
+}
+
+.div2 {
+    display: block;
+}
+
+.sp {
+    margin-top: 50px;
+    color: #000000;
+    font-size: 25px;
+    margin-left: 15px;
+    font:bolder;
+}
+
+.hp {
+    width: 600px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.img {
+    float: right;
+}
+
+.button {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 60px;
+    border: 2px solid #0fb273ad;
+    border-radius: 40px;
+    padding: 10px 15px;
+    background-color: #0fb273ad;
+}
+
+.button:hover {
+    background-color: #095d81;
+    color: #ffffff;
+    cursor: pointer;
+    border-color:#095d81;
+}
+
+.sb {
+    border-radius: 70px;
+    font-size: 15px;
+}
+
+.bt {
+    size: 5px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    color: black;
+    border-bottom-right-radius: 20px;
+    margin-left: 0px;
+}
+
+.p2 {
+    display: flex;
+}
+
+.p {
+    margin-top: 20px;
+    width: 550px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+h2 {
+    width: 580px;
+    margin-left: 20px;
+}
+
+.div3 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 8px;
+    margin-top: 50px;
+    border: solid 3px;
+    border-radius: 20px;
+    width: 1160px;
+    background: linear-gradient(to right, #1398b6, #11a35f);
+}
+
+.div3:hover {
+    background: linear-gradient(to left, rgb(19, 152, 182), #11a35f);
+    animation-name: slideup;
+    animation-duration: 1s;
+}
+
+#sp {
+    margin-left: 50px;
+    
+}
+
+h3 {
+    width: 450px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+ol {
+    list-style-type: circle;
+    line-height: 25px;
+    margin-left: 70px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.div5 {
+    display: flex;
+    background-color: black;
+}
+
+.div5 a {
+    text-decoration: none;
+    color: #12b05c;
+}
+
+#h1 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+article {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 290px;
+    margin-right: 15px;
+}
+
+.content {
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+.content:nth-child(3) {
+    margin-top: 50px;
+    height: 180px;
+}
+
+.content:nth-child(2) {
+    margin-left: 50px;
+}
+
+.content:hover {
+    animation-name: growpic;
+    animation-duration: 1s;
+}
+footer {
+    background-color: black;
+    color: #00e5ff;
+    text-align: center;
+    padding: 20px 0 ;
+    width: 99%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+footer a {
+    color: #11703d;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #61bdaf;
+}
+hr {
+border: 0;
+height: 3px;
+background-color: black;
+margin: 20px auto;
+width: 80%; 
+border-radius: 10px; 
+opacity: 0.8;
+margin-bottom: 30px;
+}
+
+@keyframes slideup {
+    100% {transform: translateY(-10px);}
+}
+
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes grow {
+    100% {transform: scale(2.1);}
+}
+
+@keyframes growpic {
+    100% {transform: scale(1.1);}
+}

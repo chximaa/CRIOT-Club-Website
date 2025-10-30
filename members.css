@@ -1,0 +1,173 @@
+body {
+    font-family: Audiowide;
+    background: linear-gradient(to right, #191834, #2b2c68, #286a98, #26b7cd, #61bdaf);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+    color: #191834;
+    text-align: center;
+}
+
+p.intro {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px;
+    line-height: 1.6;
+    color: white;
+    font-weight: bold;
+}
+
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.member-card {
+    background-color: #2e2e4f;
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+.member-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.member-role {
+    font-size: 1em;
+    color: #f9c74f;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ff595e;
+}
+
+.president-card {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.members-container > .member-card {
+    margin-top: 20px;
+    flex: 0 0 calc(25% - 20px);
+}
+
+footer {
+    background-color: black;
+    color: #00e5ff;
+    text-align: center;
+    padding: 20px 0;
+    width: 95%;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #11703d;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #61bdaf;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    background-color: transparent;
+    padding: 15px 25px;
+    width: 100%; 
+    height: 50px;
+    margin-right: 100px;
+    
+    
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 15px;
+    
+    
+}
+
+nav a:hover {
+    color: navy;
+    border-bottom: 4px solid #11703d;
+    font-size: 20px;
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .members-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .members-container > .member-card {
+        flex: 0 0 90%;
+        margin-top: 15px;
+    }
+    }
+    div.lead{
+        animation-name: grow;
+        animation-duration:2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+    } 
+    .logo{
+        width: 120px;
+
+    }
+    @keyframes grow {
+        50%{transform: scale(1.9);}
+        
+    }
